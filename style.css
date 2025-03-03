@@ -30,8 +30,8 @@ h1, h2, h3 {
 .profile-img {
     width: 120px; /* Set the size of the image */
     height: 120px;
-    border-radius: 50%; /* To make the image circular */
-/*    margin-bottom: 20px; *//* Space between image and text */
+/*    border-radius: 50%;*/ /* To make the image circular */
+    margin-bottom: 20px; /* Space between image and text */
 /*   border: 3px solid #00c6ff;*/ /* Optional: adds a border around the image */
 }
 
