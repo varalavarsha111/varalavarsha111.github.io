@@ -28,11 +28,11 @@ h1, h2, h3 {
 }
 
 .profile-img {
-    width: 120px; /* Set the size of the image */
+    width: 120px;
     height: 120px;
-    border-radius: 50%; /* To make the image circular */
-    margin-bottom: 20px; /* Space between image and text */
-    border: 3px solid #00c6ff; /* Optional: adds a border around the image */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #00c6ff;
 }
 
 #hero h1 {
@@ -70,21 +70,18 @@ h1, h2, h3 {
 
 #skills h2 {
     margin-bottom: 20px;
-    font-size: 32px;
-    color: #00c6ff;
 }
 
 .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
-    gap: 30px; /* Space between the columns */
-    justify-items: center; /* Centers the items in each column */
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skills-column {
-    width: 100%;
-    max-width: 400px; /* Maximum width of each column */
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
 }
 
 .skills-list {
@@ -97,8 +94,6 @@ h1, h2, h3 {
     padding: 15px;
     margin: 5px 0;
     border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
 }
 
 .skills-list li:hover {
