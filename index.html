@@ -3,28 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varsha's Portfolio</title>
+    <title>Varsha Varala | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="images/MyImage.jpeg" alt="Varsha's Photo" class="profile-pic">
-            <h1>Varsha Varala</h1>
-            <p>Java Developer | Full Stack Enthusiast | Cloud & AI Learner</p>
-        </div>
-    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Varsha</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Varsha Varala</span></h1>
+            <p>Java Developer | Full-Stack Enthusiast | Cloud & AI Learner</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>🚀 Passionate Java Developer with expertise in full-stack development, microservices, and cloud technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <div class="project-list">
+        <div class="project-grid">
             <a href="https://github.com/varalavarsha111/chatbot" class="project-card">
                 <h3>AI-Powered Chatbot</h3>
-                <p>Built using Java, OpenAI API for customer support</p>
+                <p>Automated customer queries using OpenAI API.</p>
             </a>
         </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
         <h2>Work Experience</h2>
         <div class="experience-item">
@@ -37,23 +59,13 @@
         </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>University of Central Missouri</h3>
-            <p>Master’s in Computer Science | May 2023 - Dec 2024</p>
-        </div>
-        <div class="education-item">
-            <h3>Mahatma Gandhi Institute Of Technology</h3>
-            <p>Bachelor’s in Electronics and Communication Engineering | July 2015 - May 2019</p>
-        </div>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <p>📩 <a href="mailto:your-email@example.com">Email Me</a></p>
         <p>🔗 <a href="https://www.linkedin.com/in/varsha-varala/">LinkedIn</a></p>
         <p>💻 <a href="https://github.com/varalavarsha111">GitHub</a></p>
     </section>
+
 </body>
 </html>
