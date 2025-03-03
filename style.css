@@ -27,6 +27,14 @@ h1, h2, h3 {
     max-width: 800px;
 }
 
+.profile-img {
+    width: 150px; /* Set the size of the image */
+    height: 150px;
+    border-radius: 50%; /* To make the image circular */
+    margin-bottom: 20px; /* Space between image and text */
+    border: 5px solid #00c6ff; /* Optional: adds a border around the image */
+}
+
 #hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
