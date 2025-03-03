@@ -51,6 +51,7 @@ nav ul li a:hover {
     height: 100vh;
     text-align: center;
     background-color: #333;
+    flex-direction: column;
 }
 
 .hero-content {
@@ -58,11 +59,14 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
     margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero h1 {
