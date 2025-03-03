@@ -151,7 +151,7 @@ h1, h2, h3 {
     background-color: #222;
 }
 
-#projects h2 {
+#projects h3 {
     margin-bottom: 10px;  /* Reduced space between title and project */
     color: #00c6ff;
     text-align: left;    /* Align title to the left */
