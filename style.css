@@ -106,18 +106,13 @@ h1, h2, h3 {
 #education {
     padding: 50px 20px;
     background-color: #333;
-    text-align: left;
-}
-
-#education h2 {
-    margin-bottom: 20px;
 }
 
 .education-item {
     background: #444;
     padding: 20px;
-    margin: 10px auto;
-    width: 60%;
+    margin: 20px 0;
+    width: 100%;  /* Make it span the whole line */
     border-radius: 10px;
 }
 
