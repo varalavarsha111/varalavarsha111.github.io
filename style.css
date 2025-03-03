@@ -162,11 +162,12 @@ h1, h2, h3 {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    width: 100%;
+    width: 100%; /* Span across full width */
 }
 
 .project-item h3 {
     margin-bottom: 10px;
+    color: #00c6ff; /* Add color to the project title */
 }
 
 .project-item p {
@@ -174,7 +175,6 @@ h1, h2, h3 {
     color: #fff;
     line-height: 1.6;
 }
-
 
 /* Footer Section */
 footer {
