@@ -82,6 +82,7 @@ h1, h2, h3 {
     flex: 1;
     margin: 10px;
     min-width: 250px;
+    text-align: left;
 }
 
 .skills-list {
